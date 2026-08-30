@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background circle (the "aalu" = potato shape) -->
+    <path
+        android:pathData="M54,30 m-22,0 a22,22 0 1,0 44,0 a22,22 0 1,0 -44,0"
+        android:fillColor="#FFD2A679" />
+
+    <!-- Highlight on the potato -->
+    <path
+        android:pathData="M48,22 m-4,0 a4,4 0 1,0 8,0 a4,4 0 1,0 -8,0"
+        android:fillColor="#FFEFD9B4" />
+
+    <!-- Two "eyes" (potato) -->
+    <path
+        android:pathData="M48,28 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"
+        android:fillColor="#FF3E2723" />
+    <path
+        android:pathData="M60,28 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0"
+        android:fillColor="#FF3E2723" />
+
+    <!-- Smile -->
+    <path
+        android:pathData="M48,34 Q54,40 60,34"
+        android:strokeColor="#FF3E2723"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+
+    <!-- Lock badge at the bottom (security indicator) -->
+    <path
+        android:pathData="M54,72 m-12,0 a12,12 0 1,0 24,0 a12,12 0 1,0 -24,0"
+        android:fillColor="#FF1A73E8" />
+
+    <path
+        android:pathData="M50,68 L50,66 a4,4 0 0,1 8,0 L58,68"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="2"
+        android:fillColor="#00000000" />
+
+    <path
+        android:pathData="M48,68 L60,68 L60,76 L48,76 Z"
+        android:fillColor="#FFFFFFFF" />
+
+    <path
+        android:pathData="M54,72 m-1,0 a1,1 0 1,0 2,0 a1,1 0 1,0 -2,0"
+        android:fillColor="#FF1A73E8" />
+</vector>

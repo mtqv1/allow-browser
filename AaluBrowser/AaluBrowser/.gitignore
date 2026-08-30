@@ -1,0 +1,22 @@
+# Built artifacts
+build/
+.gradle/
+local.properties
+*.iml
+.idea/
+captures/
+.cxx/
+
+# Keystores (do not commit)
+*.jks
+*.keystore
+release.keystore
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor backups
+*~
+*.swp
+*.bak
